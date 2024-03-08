@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: wheat;
+}
+
+div{
+    padding: 64px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+input{
+    width: 500px;
+    height: 64px;
+    padding: 16px;
+}
+
+button{
+    width: 128px;
+    height: 64px;
+}
+
+p{
+    padding: 16px;
+    background-color: white;
+    border: 1px solid gray;
+}
