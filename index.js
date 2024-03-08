@@ -20,5 +20,3 @@ document.addEventListener("DOMContentLoaded", async () => {
     //document.body.innerHTML = await (await fetch("test.html")).text()
 })
 
-
-
