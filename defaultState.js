@@ -14,8 +14,7 @@ const template = `
     <input type="text" name="msg" id="msg" placeholder="My Secret Message">
     <button type="submit">Create</button>
 </form>
-`
-//idk why but if you close the div it will create an empty one at the end
+` //idk why but if you close the div it will create an empty one at the end
 
 function createMessage(event, form){
     event.preventDefault()

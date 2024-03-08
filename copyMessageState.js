@@ -7,7 +7,7 @@ export default function enterState(message){
     document.body.innerHTML = template.replace("{secretmsg}", secretUrl)
 
     const copyButton = document.querySelector("button")
-    copyButton.addEventListener("click", ()=>{
+    copyButton.addEventListener("click", () => {
         console.log(secretUrl)
         navigator.clipboard.writeText(secretUrl)
     })

@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     // each with their own logic.
 
     // When we load the page, we're either in default, or message state
-    // If there's a message, it will be included in the URL
+    // If there's a message, it will be included in the URL, thats how we know
 
     console.log("message? ", !!window.location.hash, window.location.hash)
     if (!window.location.hash) enterDefaultState()
